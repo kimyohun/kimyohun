@@ -98,6 +98,14 @@ footer p {
   margin-top: 5px;
 }
 
+p + h3{
+    margin-top:10px;
+}
+
+div + div{
+    margin-top:10px;
+}
+
 /* 반응형 */
 @media screen and (max-width: 600px) {
   .tech-list {
